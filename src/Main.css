@@ -1,7 +1,7 @@
 *{
   margin: 0;
   box-sizing: border-box;
-  padding: 0;
+  padding: 1px;
 }
 
 .header {
@@ -20,9 +20,7 @@
   letter-spacing: 1px;
 }
 
-/* =========================
-   FORM STYLES
-   ========================= */
+
 .form {
   display: flex;
   flex-direction: column;
@@ -33,7 +31,7 @@
   max-width: 600px;
 }
 
-/* Inputs side by side */
+
 .input-row {
   display: flex;
   width: 100%;
@@ -61,9 +59,6 @@
   outline: none;
 }
 
-/* =========================
-   BUTTON STYLES
-   ========================= */
 .form button {
   background-color: #4a90e2; 
   color: #fff;
@@ -86,9 +81,7 @@
   transform: translateY(0);
 }
 
-/* =========================
-   MEME STYLES
-   ========================= */
+
 .meme {
   position: relative;
   text-align: center;
@@ -105,7 +98,7 @@
   display: block;
 }
 
-/* Top and bottom text overlay */
+
 .meme .top,
 .meme .bottom {
   position: absolute;
@@ -130,9 +123,7 @@
   bottom: 15px;
 }
 
-/* =========================
-   RESPONSIVE ADJUSTMENTS
-   ========================= */
+
 @media (max-width: 768px) {
   .meme .top,
   .meme .bottom {
